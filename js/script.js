@@ -51,6 +51,53 @@
 
 // ---------START LOOPING through elements of an Array
 
+const fruits = [
+    {
+        name: 'apple',
+        count: 4
+    },
+    {
+        name: 'pear',
+        count: 3
+    },
+    {
+        name: 'orange',
+        count: 2
+    },
+    {
+        name: 'popcorn',
+        count: 10
+    },
+    {
+        name: 'potatos',
+        count: 20
+    },
+
+];
+
+// for (let i = 0; i < fruits.length; i++) {
+//     if (fruits[i].name === 'orange') {
+//         continue;
+//     }
+//     console.log(fruits[i]);
+//     if (i === 2) {
+//         break;
+//     }
+// }
+
+// fruits.forEach( (element,index)=>{   
+
+//     console.log(element);
+//     console.log(index);
+// } )
+// // note: fruits.forEach(function);
+
+// const names = fruits.map( (element,index)=> {
+
+//    return element.name;
+
+// });
+// console.log(names);
 
 
 // ---------END LOOPING through elements of an Array
