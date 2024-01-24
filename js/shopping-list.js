@@ -8,6 +8,8 @@ const addToList = (itemName) => {
 
 const removeFromList = (position) => {
 
+  
+
 
 }
 
@@ -16,7 +18,7 @@ const renderTheShoppingCart = () => {
     ul.innerHTML = '';
 
     shoppingList.forEach((itemName) => {
-        ul.innerHTML += '<Li>' + itemName + '</Li>';
+        ul.innerHTML += '<Li onclick="removeFromList(\''+ itemName + '\')">' + itemName + '</Li>';
     })
 }
 
